@@ -1,0 +1,17 @@
+{
+    "Weapons": {
+        "Assault":[
+            {
+                "Name": "R301 Carbine",
+                "AmmoType": "Light Ammo",
+                "AmmoImage": "no url",
+                "WeaponImage": "no url"
+            }
+        ],
+        "SMG":[
+            {
+                "Name": "R-99"
+            }
+        ]
+    }
+    }
