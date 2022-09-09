@@ -1,17 +1,88 @@
 {
-    "Weapons": {
-        "Assault":[
-            {
-                "Name": "R301 Carbine",
-                "AmmoType": "Light Ammo",
-                "AmmoImage": "no url",
-                "WeaponImage": "no url"
-            }
+  "Weapons": {
+    "Assault": [
+      {
+        "Name": "R301 Carbine",
+        "isWeaponinSupplyDrop": false,
+        "WeaponImage": "no url",
+        "Type": "Light Rounds",
+        "AmmoImage": "no url",
+        "FireModes": [
+          "Auto",
+          "Single"
         ],
-        "SMG":[
-            {
-                "Name": "R-99"
-            }
-        ]
-    }
-    }
+        "Manufacturer": "Lastimosa Armory",
+        "AttachmentSlots": [
+          "Barrel Stabilizer",
+          "Extended Light Magazine",
+          "Optics",
+          "Standard Stock"
+        ],
+        "BodyDamage": {
+          "name": "14",
+          "value": 14
+        },
+        "HeadDamage": {
+          "name": "25(1.75x)",
+          "value": 25
+        },
+        "LegDamage": {
+          "name": "11(0.75x)",
+          "value": 11
+        },
+        "RPM": "810",
+        "DPS": "189",
+        "MagazineSize": {
+          "normal": "18",
+          "gray": "20",
+          "blue": "25",
+          "purple": "28"
+        },
+        "TacReloadTime": {
+          "normal": "2.4",
+          "gray": "2.32",
+          "blue": "2.24",
+          "purple": "2.16"
+        },
+        "FullReloadTime": {
+          "normal": "3.2",
+          "gray": "3.09",
+          "blue": "2.99",
+          "purple": "2.88"
+        },
+        "Attachments": {
+          "Optics": [
+            "1x HCOG 'Classic'",
+            "1x Holo",
+            "1x-2x Variable Holo",
+            "2x HCOG 'Bruiser'",
+            "3x HCOG 'Ranger'",
+            "2x-4x Variable AOG"
+          ],
+          "BarrelStabilizer": [
+            "Common",
+            "Rare",
+            "Epic"
+          ],
+          "ExtendedLightMag": [
+            "Common",
+            "Rare",
+            "Epic",
+            "Legendary"
+          ],
+          "StandardStock": [
+            "Common",
+            "Rare",
+            "Epic"
+          ]
+        },
+        "WeaponSkins": "Coming soon!"
+      }
+    ],
+    "SMG": [
+      {
+        "Name": "R-99 SMG"
+      }
+    ]
+  }
+}
