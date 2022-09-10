@@ -58,7 +58,7 @@ import requests
 url = "https://apex-legends-weapon-stats1.p.rapidapi.com/weapons"
 
 headers = {
-	"X-RapidAPI-Key": "d842a2d802mshcc69a70064149a4p17ebd2jsnc20dce5ed8bc",
+	"X-RapidAPI-Key": "YOUR-API-KEY",
 	"X-RapidAPI-Host": "apex-legends-weapon-stats1.p.rapidapi.com"
 }
 
